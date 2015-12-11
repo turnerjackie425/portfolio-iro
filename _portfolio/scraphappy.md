@@ -6,6 +6,11 @@ thumbnail-path: "assets/scraphappy_index_page_img.png"
 short-description: Digital Scrapbook/Capstone Project
 
 ---
+  Scrap Happy index page:
+
+  {:.center}
+  ![]({{ https://github.com/turnerjackie425/Scrap-Happy}}/assets/scraphappy_index_page_img.png)
+
   I spent most of my bloc.io course wondering what I would do for a capstone project. The thought of it was almost overwhelming. Then I realized that I should do something that shows what am I most passionate about. And that, of course, is my family. A digital scrapbook with a Pinterest type layout is the result of that thought.
 
   My mentor with Bloc was scarcely available for guidance, so I flew solo on this project and it took me a lot longer than I had anticipated. I went back and forth on what sort of pages this application should have. Should a user be able to have multiple scrapbooks with multiple pages? What about adding a collaboration feature where other users can add to a scrapbook, with permission from the scrapbooks owner, of course. These ideas were great but I needed a good backbone first. I quickly learned that I was making it too complicated. I needed to simplify this application. It is now a simple one page scrapbook. A user can sign-up with an email verification through send grid and upload photos using the paperclip gem. I added a like feature as well in preparation for the user collaboration that will follow eventually.
