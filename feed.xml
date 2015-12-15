@@ -1,22 +1,145 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.theme.title | xml_escape }}</title>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <description>{{ site.theme.description | xml_escape }}</description>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    {% for post in site.posts limit:15 %}
+    <title>Jacqueline Turner</title>
+    <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>http://example.com/</link>
+    <description>A website with blog posts and pages</description>
+    <pubDate>Tue, 15 Dec 2015 16:24:36 -0700</pubDate>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <title>The Biggest Challenge I Have Had While Learning To Develop</title>
+        <link>http://example.com/2015/12/11/the-biggest-challenge-i-have-had-while-learning-to-develop.html</link>
+        <guid isPermaLink="true">http://example.com/2015/12/11/the-biggest-challenge-i-have-had-while-learning-to-develop.html</guid>
+        <description>
+</description>
+        <pubDate>Fri, 11 Dec 2015 00:00:00 -0700</pubDate>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>My experience at Bloc</title>
+        <link>http://example.com/2015/12/11/my-experience-at-bloc.html</link>
+        <guid isPermaLink="true">http://example.com/2015/12/11/my-experience-at-bloc.html</guid>
+        <description>&lt;p&gt;I had been playing around with Ruby for a few months via free coding websites and wanted to take some sort of lessons to really understand the language. An online course was best for me since I live in a very small town with very few opportunities. Also, I needed to be home with my two young children during my course. I found Bloc and it sounded perfect! What REALLY sold me on bloc.io was having my very own mentor and the promise of help with a portfolio as well as job prep. I couldn’t wait to get started.&lt;/p&gt;
+
+&lt;p&gt;After figuring out how I was going to pay for my course, I immediately enrolled in the Rails Web Development course. I had to wait about 12 days to start and I could not wait!&lt;/p&gt;
+
+&lt;p&gt;While I was waiting, I did some free courses online in preparation. I had completed a couple previous to this so it really wasn’t too difficult. Then the day finally came!&lt;/p&gt;
+
+&lt;p&gt;My mentor was a young software engineer from San Diego. I really admired her work ethic and we got along really well. I was really excited to be able to work her.&lt;/p&gt;
+
+&lt;p&gt;My course started off with some Ruby basics, which was pretty simple since I had been doing some Ruby stuff on my own. My mentor was really helpful and I was enjoying myself a lot.&lt;/p&gt;
+
+&lt;p&gt;Then I hit the point in the course where territory was unfamiliar. Here was the challenge I knew was coming! I had a ton of questions form mentor, but she seemed to be too busy to answer. I scoured the internet and the found answers on my own, mostly through stackoverflow.com. Bloc also has a Slack channel and a Facebook page called Bloc Hackers Club. I found both of these resources very helpful as well!&lt;/p&gt;
+
+&lt;p&gt;About a month into my course, my mentor was canceling or rescheduling appointments often and was very difficult to get ahold of. This was an expensive course! I chose Bloc because of the opportunity to have a mentor. I felt I wasn’t getting the full attention I needed. I realized that my mentor had a full-time career and that was her main priority. But I also realized that I needed someone with more time.&lt;/p&gt;
+
+&lt;p&gt;So, I sent my mentor an email explaining my feelings and sent in my request for a new mentor. My new mentor seemed knowledgeable and excited to work with me and I was really excited to work with him as well!&lt;/p&gt;
+
+&lt;p&gt;By the time my new mentor was involved, I was wrapping up the theory part of the course and moving on to actually building an application called Bloccit, a Reddit replica. I was so excited to put my new found knowledge to use.&lt;/p&gt;
+
+&lt;p&gt;And of course once I started the application, I had a ton of questions. So naturally, I turned to my new mentor. He was very helpful and knowledgeable, as expected. As time went on, it seemed I was running into the same problems I had with my first mentor. Unanswered questions galore. But this time was worse! He would actually completely blow off our meetings and rarely answer my questions via Skype. What had I done? I was better off with my first mentor.&lt;/p&gt;
+
+&lt;p&gt;I didn’t want to waste anymore time searching for mentors. I needed to concentrate on my course. So that is exactly what I did. My new mentor would occasionally answer my questions and occasionally make our scheduled meetings, but I knew I couldn’t count on that. I took what I could get from him and continued to found the vast majority of my answers online.&lt;/p&gt;
+
+&lt;p&gt;My time with my new mentor became scarce and then nonexistent. I ended up flying completely solo for my capstone project, portfolio and job prep.&lt;/p&gt;
+
+&lt;p&gt;I learned a lot with my coursework through Bloc. A lot of Ruby, some HTML, CSS and even a little Javascript! The biggest lesson I learned though was how to figure it out on my own. I am actually thankful for the lack of help from my second mentor. Now I can say I did it by myself. And I am very proud of that.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Dec 2015 00:00:00 -0700</pubDate>
+      </item>
+    
+      <item>
+        <title>Sample post</title>
+        <link>http://example.com/2014/11/30/sample-post.html</link>
+        <guid isPermaLink="true">http://example.com/2014/11/30/sample-post.html</guid>
+        <description>&lt;p&gt;Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+  &lt;li&gt;Donec a diam lectus&lt;/li&gt;
+  &lt;li&gt;Sed sit amet ipsum mauris&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.&lt;/p&gt;
+
+&lt;p&gt;Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula &lt;em&gt;semper consectetur sagittis&lt;/em&gt;, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.&lt;/p&gt;
+
+&lt;p&gt;Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Etiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt.&lt;/p&gt;
+
+&lt;p&gt;Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Nov 2014 00:00:00 -0700</pubDate>
+      </item>
+    
+      <item>
+        <title>Feature images</title>
+        <link>http://example.com/2014/11/29/feature-images.html</link>
+        <guid isPermaLink="true">http://example.com/2014/11/29/feature-images.html</guid>
+        <description>&lt;p&gt;This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Nov 2014 00:00:00 -0700</pubDate>
+      </item>
+    
+      <item>
+        <title>Markdown and HTML</title>
+        <link>http://example.com/2014/11/28/markdown-and-html.html</link>
+        <guid isPermaLink="true">http://example.com/2014/11/28/markdown-and-html.html</guid>
+        <description>&lt;p&gt;Jeykll supports the use of &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.&lt;/p&gt;
+
+&lt;p&gt;Tables have also been extended from Markdown:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;First Header&lt;/th&gt;
+      &lt;th&gt;Second Header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Here’s an example of an image, which is included using Markdown:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/sample_feature_img_2.png&quot; alt=&quot;Geometric pattern with fading gradient&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Pygments by default.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// count to ten&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// count to twenty&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Type Theme uses KaTeX to display maths. Equations such as &lt;script type=&quot;math/tex&quot;&gt;S_n = a \times \frac{1-r^n}{1-r}&lt;/script&gt; can be displayed inline.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, they can be shown on a new line:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \int \frac{2x^2+4x+6}{x-2}&lt;/script&gt;
+</description>
+        <pubDate>Fri, 28 Nov 2014 00:00:00 -0700</pubDate>
+      </item>
+    
   </channel>
 </rss>
