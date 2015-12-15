@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My experience at Bloc
-___
+---
 
 I had been playing around with Ruby for a few months via free coding websites and wanted to take some sort of lessons to really understand the language. An online course was best for me since I live in a very small town with very few opportunities. Also, I needed to be home with my two young children during my course. I found Bloc and it sounded perfect! What REALLY sold me on bloc.io was having my very own mentor and the promise of help with a portfolio as well as job prep. I couldn’t wait to get started.
 
